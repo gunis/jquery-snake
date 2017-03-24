@@ -1,0 +1,77 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>jQuery snake - Juraj Guniš</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<!--[if IE 6]>
+			<script src="js/DD_belatedPNG.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				DD_belatedPNG.fix('.png-bg');
+			</script>
+		<![endif]-->
+		<script type="text/javascript" src="js/jquery-1.5.js"></script>
+		<script type="text/javascript" src="js/jquery.timers.js"></script>
+		<script type="text/javascript" src="js/snake.js"></script>
+	</head>
+	<body>
+		<div id="cover">
+			<h1>jQuery snake</h1>
+			<div id="snake-game">
+				<div id="playground">
+					<div id="food">&#9827;</div>
+					<div class="snake" id="div1"><img id="head" src="img/head.gif" alt="head" /></div>
+					<div class="snake" id="div2">&nbsp;</div>
+					<div class="snake" id="div3">&nbsp;</div>
+					<div class="snake" id="div4">&nbsp;</div>
+				</div>
+				<div id="results">
+					<h2>Results</h2>
+					<p>
+						<strong>points:</strong>
+						<span id="points">0</span>
+					</p>
+					<p>
+						<strong>level:</strong>
+						<span id="level">1</span>
+					</p>
+					<h2 class="next">Controls</h2>
+					<img id="play" class="png-bg" src="img/play-icon.png" alt="Play" title="Play" />
+					<img id="pause" class="png-bg" src="img/pause-icon.png" alt="Pause" title="Pause" />
+					<a href="index.html" title="New game"><img id="stop" class="png-bg" src="img/new-game-icon.png" alt="New game" /></a>
+					<h2 class="next">Help</h2>
+					<p>
+						<strong>&#8594;</strong>
+						<span id="points">turn right</span>
+					</p>
+					<p>
+						<strong>&#8592;</strong>
+						<span id="points">turn left</span>
+					</p>
+					<p>
+						<strong>&#8593;</strong>
+						<span id="points">turn up</span>
+					</p>
+					<p>
+						<strong>&#8595;</strong>
+						<span id="points">turn down</span>
+					</p>
+				</div>
+				<div class="png-bg" id="pause-info">
+					<h3>PAUSE</h3>
+				</div>
+				
+				<div class="png-bg" id="game-over">
+					<h3>GAME OVER</h3>
+				</div>
+			</div>
+		</div>
+		<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			_uacct = "UA-4286414-1";
+			urchinTracker();
+		</script>
+	</body>
+</html>

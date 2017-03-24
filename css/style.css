@@ -1,0 +1,24 @@
+body { font-family:arial; font-size:11px; background:#FFF; }
+h1 { color:#555; font-size:27px; margin:0 auto; text-align:center; padding:20px 0px; }
+h2 { background:transparent url(../img/playground-bg.gif); border-bottom:1px #888 solid; border-top:1px #888 solid; clear:both; color:#555; font-size:15px; margin:0 auto; text-align:center; padding:10px 0px; }
+h2.next { margin:20px auto 0 auto; text-align:center; padding:10px 0px; }
+h3 { color:#FF6600; font-size:30px; margin:0 auto; text-align:center; text-decoration:blink; padding:200px 0px 0px 0px; }
+p { color:#555; clear:both; font-size:12px; margin:0 0 0 15px; text-align:left; padding:21px 0px 0px 0px; width:130px; }
+p strong { display:block; font-size:12px; float:left; font-weight:bold; width:50px; }
+div#snake-game { border:0px; height:452px; margin:0 auto; position:relative; width:452px; }
+div#playground { background:url(../img/snake-bg.jpg) 0px 0px no-repeat; border:1px #888 solid; height:450px; position:relative; width:450px; }
+div#food { background:transparent; border:0px; color:white; font-size:20px; left:0px; line-height:13px; top:0px; position:absolute; }
+div.snake { background:#F4F4F4; border:1px #555 solid; height:13px; position:absolute; width:13px; }
+div#div1 { background:transparent; border:0px; color:#FFF; font-size:16px; line-height:13px; top:30px; left:45px; }
+div#div2 { top:30px; left:30px; }
+div#div3 { top:30px; left:15px; }
+div#div4 { top:30px; left:0px; }
+div#results { background:#F9F9F9; border-bottom:1px #888 solid; border-left:1px #888 solid; border-right:1px #888 solid; height:450px; left:460px; position:absolute; top:0px; width:150px; }
+a { border:0px; outline-style:none; }
+img { border:0px; }
+img#play { cursor:pointer; display:inline; margin:23px 20px 0px 20px; }
+img#pause { cursor:pointer; display:none; margin:23px 20px 0px 20px; }
+img#stop { cursor:pointer; display:inline; margin:20px 20px 0px 20px; }
+div#pause-info { display:none; height:450px; left:1px; position:absolute; top:1px; width:450px; }
+div#game-over { display:none; height:450px; left:1px; position:absolute; top:1px; width:450px; }
+div.png-bg { background:url(../img/png-bg.png) 0px 0px repeat; }
